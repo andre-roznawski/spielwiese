@@ -2,8 +2,8 @@ package de.telekom.sea7;
 
 public class Array {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		public static void main(String[] args) {
+		
 		int [] a = new int [5];
 		int i;
 		a [0] = 3;
