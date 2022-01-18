@@ -30,11 +30,11 @@ public class Game_one {
 		else {
 			
 			if(ver1==ver2) {
-				System.out.println("Die Zahl"+" "+ver1+ " "+ "und" +ver2 + " " + "sind gleich");
+				System.out.println("Die Zahl"+" "+ver1+ " "+ "und" + " " +ver2 + " " + "sind gleich");
 			}
 		    else 
 		    {
-			     System.out.println("Die Zahl"+" "+ver1+ " " + "ist groesser als die Zahl" + " "+ ver2);
+			     System.out.println("Die Zahl" + " " +ver1+ " " + "ist groesser als die Zahl" + " "+ ver2);
 		    }
 	    }
 		
