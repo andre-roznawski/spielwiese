@@ -7,9 +7,14 @@ public class StarterArr {
 		Integerliste meineListe = new Integerliste();
 
 		System.out.println("Listenelemente Original: " + meineListe.toString());
-		System.out.println("Listenlänge: " + meineListe.getListenLaenge());
-		System.out.println("Listensumme: " + meineListe.getSumliste());
-
+		//System.out.println("Listenlänge: " + meineListe.getListenLaenge());
+		//System.out.println("Listensumme: " + meineListe.getSumliste());
+		meineListe.setliste(1, 20);
+		System.out.println(meineListe.getliste(1));
+		System.out.println(meineListe.getliste(2));
+		System.out.println(meineListe.getliste(3));
+		System.out.println(meineListe.getliste(4));
+		System.out.println(meineListe.getliste(5));
 		meineListe.setListenLaenge(8);
 		System.out.println("Listenelemente neue Länge + : " + meineListe.toString());
 

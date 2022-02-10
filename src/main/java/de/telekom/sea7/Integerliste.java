@@ -6,7 +6,7 @@ public class Integerliste {
 
 	public Integerliste() {                              //Construktor erstellen
 		for (int i = 0; i < liste.length; i++) {
-			liste[i] = i;
+		liste[i] = i;
 		}
 	}
 
@@ -18,7 +18,7 @@ public class Integerliste {
 	public int getliste(int position) {
 		if ((position <= 0) && (liste.length >= position)) {
 			System.out.println("Ungültige Eingabe von " + position);
-			return 0;
+			return position;
 		} else {
 			position--;
 			return liste[position];
