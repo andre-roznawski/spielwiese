@@ -8,7 +8,7 @@ public class UebungArray1 {
 		return hallo;
 	}
 
-	public void setHallo(int[] hallo, int i) {
+	public void setHallo(int position, int i) {
 		this.hallo = hallo;
 	}
 	
@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		
 		UebungArray1 neueliste = new UebungArray1();
 
-		neueliste.setHallo(null, 20);
+		neueliste.setHallo(2, 15);
 		System.out.println(neueliste.getHallo());
 }
 }
